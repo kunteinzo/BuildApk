@@ -17,13 +17,14 @@
 ### Download Required Tools ⬇️
 
 Download Android SDK Command Line Tools from [here](https://developer.android.com/studio#command-tools). Download the Linux one.
-![[Pics/cmdline-tools.jpg]]
+![Pics/cmdline-tools.jpg](Pics/cmdline-tools.jpg)
 
 Download Android SDK Platform Tools from [here](https://developer.android.com/tools/releases/platform-tools). [Direct link](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) Download the Linux.
-![[Pics/platform-tools.jpg]]
+![Pics/platform-tools.jpg](Pics/platform-tools.jpg)
 
 Download Gradle Build Tools from [here](https://gradle.org/releases/). Download `binary-only` or `complete`.
-![[Pics/gradle-build-tools.jpg]]
+![Pics/gradle-build-tools.jpg](Pics/gradle-build-tools.jpg)
+
 ##### For aapt2
 
 You can install it with `pkg` or `apt`.
