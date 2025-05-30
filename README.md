@@ -48,7 +48,7 @@ Go to downloaded zip directory.
 ##### Extract android cmdline-tools.
 Change cmdline.zip with your file name.
 ```bash
-unzip cmdline.zip -d $HOME/Android/Sdk/
+unzip cmdline.zip -d $HOME/Android/Sdk/latest
 ```
 
 ##### Extract platform tools.
@@ -69,7 +69,7 @@ To export PATH add it to .bashrc or your shell's config file.
 ```bash
 export ANDROID_HOME=$HOME/Android/Sdk
 export GRADLE_HOME=$PREFIX/opt/gradle
-export PATH=$PATH:ANDROID_HOME/cmdline-tools/bin:$GRADLE_HOME/<Gradle version>/bin
+export PATH=$PATH:ANDROID_HOME/cmdline-tools/latest/bin:$GRADLE_HOME/<Gradle version>/bin
 ```
 replace \<gradle version\> with your downloaded grade. E.g. `gradle-8.14.1`
 
