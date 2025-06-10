@@ -93,7 +93,13 @@ gradle -v
 sdkmanager --version
 ```
 
-Then, try executing your project gradlew file. E.g. `gradlew tasks`.
+Then, try executing your project gradlew file.  
+
+```bash
+# make the file executable
+chmod +x gradlew
+./gradlew tasks
+```
 
 #### For aapt2
 &emsp;&emsp;If build-in aapt2 don't work. Use aapt2 install by Termux. Just add this line `android.aapt2FromMavenOverride=/data/data/com.termux/files/usr/bin/aapt2`
